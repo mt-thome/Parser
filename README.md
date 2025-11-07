@@ -212,7 +212,7 @@ Parser/
 
 A documentação completa está disponível em:
 
-- **[RELATORIO.md](docs/RELATORIO.md)** - Gramática formal (GLC) e manual do usuário
+- **[relatorio.md](docs/relatorio.md)** - Gramática formal (GLC) e manual do usuário
 
 ## Testes
 
