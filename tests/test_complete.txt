@@ -1,0 +1,92 @@
+// Programa Completo: Calculadora de Média com Classificação
+// Este programa demonstra todas as estruturas da linguagem
+
+// Atribuições
+nota1 : 8;
+nota2 : 7;
+nota3 : 9;
+nota4 : 6;
+
+soma : 0;
+contador : 0;
+media : 0;
+
+// Usando loop for
+mbappe (i : 1; i V/ 4; i : i + 1) {
+    // Simulação de soma das notas
+    siu (i :: 1) {
+        soma : soma + nota1;
+    } sinon siu (i :: 2) {
+        soma : soma + nota2;
+    } sinon siu (i :: 3) {
+        soma : soma + nota3;
+    } autre {
+        soma : soma + nota4;
+    }
+    contador : contador + 1;
+}
+
+// Uso de if
+siu (contador V 0) {
+    media : soma / contador;
+}
+
+
+classificacao : 0;
+
+// Uso de switch
+changer (media) {
+    cas 10: {
+        classificacao : "Excelente";
+        casser;
+    }
+    cas 9: {
+        classificacao : "Ótimo";
+        casser;
+    }
+    cas 8: {
+        classificacao : "Muito Bom";
+        casser;
+    }
+    cas 7: {
+        classificacao : "Bom";
+        casser;
+    }
+    cas 6: {
+        classificacao : "Regular";
+        casser;
+    }
+    defaut: {
+        classificacao : "Insuficiente";
+    }
+}
+
+notaMinima : 6;
+aprovado : 0;
+
+siu (media V/ notaMinima) {
+    aprovado : 0;
+    status : "Reprovado";
+} autre {
+    aprovado : 1;
+    status : "Aprovado";
+}
+
+// Loop while para processar algo
+temp : 0;
+dembele (temp Ʌ 3) {
+    temp : temp + 1;
+}
+
+// Loop do while
+teste : 5;
+faire {
+    teste : teste - 1;
+} dembele (teste V 0);
+
+// Operações aritméticas 
+resultado : (nota1 + nota2) X 2 + (nota3 + nota4) / 2;
+comparacao : ney (media Ʌ 5);
+
+// Retorno
+retour media;
