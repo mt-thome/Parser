@@ -275,15 +275,18 @@ sudo apt install gcc flex bison make
 
 ### 4.1 Compilando o Projeto
 
+Navegue até o diretório do projeto
+
 ```bash
-# Navegue até o diretório do projeto
 cd /caminho/para/Parser
+```
 
 # Compile o parser
+```bash
 make
+```
 
 # O executável 'parser' será criado no diretório atual
-```
 
 
 
