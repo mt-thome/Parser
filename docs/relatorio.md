@@ -281,12 +281,12 @@ Navegue até o diretório do projeto
 cd /caminho/para/Parser
 ```
 
-# Compile o parser
+Compile o parser
 ```bash
 make
 ```
 
-# O executável 'parser' será criado no diretório atual
+O executável 'parser' será criado no diretório atual
 
 
 
