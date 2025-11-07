@@ -17,7 +17,6 @@ Um analisador léxico e sintático completo para uma linguagem de programação 
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Documentação](#-documentação)
 - [Testes](#-testes)
-- [Contribuindo](#-contribuindo)
 - [Licença](#-licença)
 
 ## Características
@@ -280,25 +279,7 @@ make test     # Executa todos os testes
 make clean    # Remove arquivos compilados
 ```
 
-## Estatísticas
-
-- **Linguagem:** C
-- **Linhas de Código:** ~600 (lexer.l + parser.y)
-- **Tokens:** 36 terminais
-- **Produções:** 58
-- **Testes:** 6 arquivos
-- **Documentação:** 1000+ linhas
-
-## Limitações Conhecidas
-
-- Não realiza análise semântica (verificação de tipos)
-- Não verifica declaração de variáveis
-- Não implementa escopo de variáveis
-- Não gera código executável (apenas análise sintática)
-- Não suporta funções definidas pelo usuário
-- Não suporta arrays ou estruturas de dados complexas
-
-## 👤 Autor
+## Autor
 
 **mt-thome**
 
