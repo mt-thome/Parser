@@ -284,7 +284,6 @@ make clean    # Remove arquivos compilados
 **mt-thome**
 
 - GitHub: [@mt-thome](https://github.com/mt-thome)
-- Repositório: [LexicalAnalyzer](https://github.com/mt-thome/LexicalAnalyzer)
 
 ## Licença
 
